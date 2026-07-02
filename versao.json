@@ -1,9 +1,9 @@
 {
   "app_version": "0.6.1",
-  "build_id": "84c534c",
+  "build_id": "c71e677",
   "schema_version": 3,
-  "sha256": "562C646FAF2AB3EF5C25B535141F44E24CB8E934DC227D96FDC12D7FBBE84A9B",
+  "sha256": "2E6506155DDBE1EF3EC6A433AC08784250FE4444AA116EC3FFA76E56ADAE4028",
   "obrigatorio": false,
   "notas": "Versão 0.6.1\n\n✨ Novidades\n- Atualizador automático: o app verifica em segundo plano, ao abrir, se há uma versão mais nova publicada e avisa com um botão no menu lateral. Um clique baixa e instala a atualização sozinho.\n- Atualização obrigatória: se o banco de dados compartilhado já tiver sido migrado por uma versão mais recente, a atualização passa a ser exigida ao abrir, para manter todos os usuários alinhados.\n\n⚙ Ajustes\n- Ao instalar uma atualização, o app se fecha automaticamente e mostra um aviso para reabrir o Gestor de Extratos (reabertura manual, mais rápida e confiável).\n- Numeração de versões passou a usar um terceiro número (0.6.1) que muda a cada release publicada.\n",
-  "url_download": "https://github.com/daniloheck/CTec-Releases/releases/download/v0.6.1-84c534c/Gestor.de.Extratos.-.V0.6.1.exe"
+  "url_download": "https://github.com/daniloheck/CTec-Releases/releases/download/v0.6.1-c71e677/Gestor.de.Extratos.-.V0.6.1.exe"
 }
