@@ -1,9 +1,9 @@
 {
-  "app_version": "0.6.2",
-  "build_id": "fdb298a",
+  "app_version": "0.6.3",
+  "build_id": "41fca53",
   "schema_version": 3,
-  "sha256": "AE60689C129CD52C4808762AAC988D728652C261A98275C162CE9965494E9D33",
+  "sha256": "CD8622E937574222A3FBB05AB25D6B6E592BA17F40ABBBAF1698A8AAC6693E82",
   "obrigatorio": false,
-  "notas": "Versão 0.6.2\n\n✨ Novidades\n- Conciliação: ao abrir os lançamentos de uma igreja (duplo-clique), o \"Conciliar automático\" passou a casar pelo valor + mesmo histórico (descrição), sem exigir o mesmo tipo de documento. Assim, quando há vários lançamentos de mesmo valor, sobra exatamente o que está faltando — não um qualquer.\n\n⚙ Ajustes\n- Configurações: ao abrir a aba, a conexão dos Campos (bancos SQL) é testada automaticamente e em paralelo — um servidor fora do ar não trava mais o teste dos demais.\n- Configurações: \"Bancos por agência\" ganhou os botões Novo, Editar e Remover (como o cadastro de Campos), com caixas de seleção para Extrato e Aplicação.\n- Conciliação: quando não é possível conectar ao banco, a mensagem explica o motivo (sem rede/servidor indisponível, usuário ou senha incorretos, ou banco não encontrado).\n- Bradesco: os arquivos passam a ser salvos corretamente mesmo quando a pasta de destino está em outro disco ou em rede.\n- Bradesco: encerrar o processo ficou mais confiável (para na hora, sem travar o aplicativo).\n- Bradesco: contas habilitadas que não foram localizadas em nenhum grupo passam a aparecer no resumo final.\n- Falhas inesperadas passam a ser registradas para diagnóstico.\n\n🔧 Correções\n- Configurações: os bancos por agência que vinham pré-cadastrados (Bradesco, Banco do Brasil, Santander) não voltam mais sozinhos depois de removidos.\n- Limpar logs não trava mais quando algum arquivo está em uso.\n",
-  "url_download": "https://github.com/daniloheck/CTec-Releases/releases/download/v0.6.2-fdb298a/Gestor.de.Extratos.-.V0.6.2.exe"
+  "notas": "Versão 0.6.3\n\n✨ Novidades\n- Nova tela Custo de RPS.\n- Geração dos arquivos de lançamento das RPS.\n- Relatório de Custo de RPS em PDF.\n\n⚙ Ajustes\n- Conciliação: o \"Conciliar automático\" casa descrições parecidas (marcadas em amarelo).\n\n🔧 Correções\n- Conciliação: corrigida a diferença falsa de lote atualizado só de um lado.\n",
+  "url_download": "https://github.com/daniloheck/CTec-Releases/releases/download/v0.6.3-41fca53/Gestor.de.Extratos.-.V0.6.3.exe"
 }
