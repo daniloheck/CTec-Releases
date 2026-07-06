@@ -1,9 +1,9 @@
 {
-  "app_version": "0.6.3",
-  "build_id": "41fca53",
-  "schema_version": 3,
-  "sha256": "CD8622E937574222A3FBB05AB25D6B6E592BA17F40ABBBAF1698A8AAC6693E82",
-  "obrigatorio": false,
-  "notas": "Versão 0.6.3\n\n✨ Novidades\n- Nova tela Custo de RPS.\n- Geração dos arquivos de lançamento das RPS.\n- Relatório de Custo de RPS em PDF.\n\n⚙ Ajustes\n- Conciliação: o \"Conciliar automático\" casa descrições parecidas (marcadas em amarelo).\n\n🔧 Correções\n- Conciliação: corrigida a diferença falsa de lote atualizado só de um lado.\n",
-  "url_download": "https://github.com/daniloheck/CTec-Releases/releases/download/v0.6.3-41fca53/Gestor.de.Extratos.-.V0.6.3.exe"
+  "app_version": "0.6.4",
+  "build_id": "9845718",
+  "schema_version": 4,
+  "sha256": "0E86235C48BF072F30126F0CB7BDB7A1F5856C0BD2547CF6C65698D6AAC1D9EC",
+  "obrigatorio": true,
+  "notas": "Versão 0.6.4\n\n✨ Novidades\n- Gerenciar Contas: pré-cadastro pelo AASI — traz as contas das igrejas (agência, conta, código e nome) direto do balancete, para importar de uma vez.\n- Vínculo das contas ao Campo, automático pelo balancete ou manual.\n- Igrejas do AASI: opção de ignorar divergências já revisadas (voltam a aparecer se algo mudar).\n- Custo de RPS: o departamento do arquivo ACMS agora é configurável por Campo.\n\n🔧 Correções\n- Conciliação: histórico dos lançamentos corrigido.\n- Mais estabilidade ao fechar o programa e ao cancelar uma atualização.\n\n⚠ Esta atualização é obrigatória.\n",
+  "url_download": "https://github.com/daniloheck/CTec-Releases/releases/download/v0.6.4-9845718/Gestor.de.Extratos.-.V0.6.4.exe"
 }
