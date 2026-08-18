@@ -1,9 +1,9 @@
 {
   "app_version": "0.6.6",
-  "build_id": "c1649df",
+  "build_id": "09d528d",
   "schema_version": 6,
-  "sha256": "B25FA654C86D360207BF5BE5587FAE31AD8970D4E267F115E36D777BC4F218A1",
+  "sha256": "83524F1721464F54CEF0DD239B086B3AA3C78B5E7479288F041B25471A3A3749",
   "obrigatorio": false,
-  "notas": "Versão 0.6.6\n\n🔧 Correções\n- Remover um Campo (Banco SQL) não desvincula mais as contas e os saldos: o cadastro fica guardado e, ao cadastrar o mesmo servidor de novo, tudo volta ligado.\n- Antes, remover e recadastrar um Campo fazia as contas sumirem da tela Gerenciar Contas, sem aparecer nem em Vincular Campos.\n- A senha do Campo é apagada quando ele é removido.\n- Um mesmo servidor não pode mais ser cadastrado em dois Campos diferentes.\n- O nome de um Campo removido volta a ficar disponível para uso.\n- Contas e saldos que ficaram órfãos de Campos removidos em versões anteriores são limpos na abertura.\n\n⚙ Ajustes\n- A marcação Ativo saiu do cadastro de Campo: a própria remoção cuida disso agora.\n",
-  "url_download": "https://github.com/daniloheck/CTec-Releases/releases/download/v0.6.6-c1649df/Gestor.de.Extratos.-.V0.6.6.exe"
+  "notas": "Versão 0.6.6\n\n🔧 Correções\n- Remover um Campo (Banco SQL) não desvincula mais as contas e os saldos: o cadastro fica guardado e, ao cadastrar o mesmo servidor de novo, tudo volta ligado.\n- Antes, remover e recadastrar um Campo fazia as contas sumirem da tela Gerenciar Contas, sem aparecer nem em Vincular Campos.\n- A senha do Campo é apagada quando ele é removido.\n- Um mesmo servidor não pode mais ser cadastrado em dois Campos diferentes.\n- O nome de um Campo removido volta a ficar disponível para uso.\n- Contas e saldos que ficaram órfãos de Campos removidos em versões anteriores são limpos na abertura.\n\n⚙ Ajustes\n- A marcação Ativo saiu do cadastro de Campo: a própria remoção cuida disso agora.\n- O aviso de nova versão passa a aparecer com o aplicativo aberto, sem precisar fechar e abrir.\n",
+  "url_download": "https://github.com/daniloheck/CTec-Releases/releases/download/v0.6.6-09d528d/Gestor.de.Extratos.-.V0.6.6.exe"
 }
