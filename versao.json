@@ -1,9 +1,9 @@
 {
   "app_version": "0.6.9",
-  "build_id": "22d7e4d",
+  "build_id": "fe61030",
   "schema_version": 6,
-  "sha256": "32C277BE47199BB535D2418630BBF2A606E16D01A6745B45C49120542EF49B47",
+  "sha256": "AEC272378995BB315AFA8AF4FB8156BCB7256B7BFFF0C61D8B21F64EC90D0032",
   "obrigatorio": false,
   "notas": "Versão 0.6.9\n\n✨ Novidades\n- Nova tela: Rateio Custo Pessoal. Custo de pessoal das igrejas rateado por departamento, com PDF e os arquivos do AASI e do ACMS.\n- Gerenciar Contas: a tecla Delete exclui as contas marcadas.\n- A linha de totais passa a mostrar quantas linhas está somando (Conciliação 11 x 93, Conciliação Bancária e Custo de RPS).\n\n⚙ Ajustes\n- Custo de RPS: os nomes dos arquivos gerados foram padronizados.\n- Durante a consulta, os botões que geram arquivo ficam bloqueados junto com o Atualizar.\n- Custo de RPS e Conciliação 11 x 93 mostram o tempo da consulta e desistem depois de 5 minutos.\n- Custo de RPS: os nomes das colunas não saem mais cortados.\n- Conciliação 11 x 93: linha de totais alinhada com a tabela.\n\n🔧 Correções\n- Gerenciar Contas › Igrejas do AASI: a agência importada agora vem sempre com 4 dígitos.\n- Baixar Extratos: o Bradesco voltou a reconhecer o componente de segurança no Firefox 145.\n",
-  "url_download": "https://github.com/daniloheck/CTec-Releases/releases/download/v0.6.9-22d7e4d/Gestor.de.Extratos.-.V0.6.9.exe"
+  "url_download": "https://github.com/daniloheck/CTec-Releases/releases/download/v0.6.9-fe61030/Gestor.de.Extratos.-.V0.6.9.exe"
 }
