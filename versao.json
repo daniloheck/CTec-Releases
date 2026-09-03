@@ -1,9 +1,9 @@
 {
-  "app_version": "0.6.8",
-  "build_id": "d390e7f",
+  "app_version": "0.6.9",
+  "build_id": "22d7e4d",
   "schema_version": 6,
-  "sha256": "1A869FAE49F9F5DDC2D3D93B11CE75AED1FF58E1FEA350CA63CBB373F136FDDE",
+  "sha256": "32C277BE47199BB535D2418630BBF2A606E16D01A6745B45C49120542EF49B47",
   "obrigatorio": false,
-  "notas": "Versão 0.6.8\n\n⚙ Ajustes\n- Custo de RPS: os lançamentos da entidade Igrejas passam a sair num arquivo só, o \"AASI Igrejas\", na ordem custo, CEI e redutora. O arquivo \"Redutora Igrejas\" deixa de ser gerado à parte.\n- Custo de RPS: RPS lançada em departamento de obra (3000) ganha os lançamentos de CEI, que devolvem o custo para o departamento da igreja (2000). São 4 linhas por RPS, e só aparecem quando existe RPS nessa situação.\n\n🔧 Correções\n- Custo de RPS: no arquivo do ACMS, a RPS de obra saía com um código de igreja inexistente (o departamento 3100 virava 1100). Agora entra pelo código da igreja, que é onde o custo termina.\n- Baixar Faturas: em redes que inspecionam o tráfego (firewall ou antivírus da empresa), o download falhava logo no acesso ao portal com um erro de certificado. O aplicativo passa a confiar nos certificados instalados no Windows, como o navegador já fazia.\n- Se ainda assim o certificado for recusado, a mensagem explica o motivo e o que pedir ao suporte de TI, em vez de insistir e terminar dizendo que o portal bloqueou o acesso.\n",
-  "url_download": "https://github.com/daniloheck/CTec-Releases/releases/download/v0.6.8-d390e7f/Gestor.de.Extratos.-.V0.6.8.exe"
+  "notas": "Versão 0.6.9\n\n✨ Novidades\n- Nova tela: Rateio Custo Pessoal. Custo de pessoal das igrejas rateado por departamento, com PDF e os arquivos do AASI e do ACMS.\n- Gerenciar Contas: a tecla Delete exclui as contas marcadas.\n- A linha de totais passa a mostrar quantas linhas está somando (Conciliação 11 x 93, Conciliação Bancária e Custo de RPS).\n\n⚙ Ajustes\n- Custo de RPS: os nomes dos arquivos gerados foram padronizados.\n- Durante a consulta, os botões que geram arquivo ficam bloqueados junto com o Atualizar.\n- Custo de RPS e Conciliação 11 x 93 mostram o tempo da consulta e desistem depois de 5 minutos.\n- Custo de RPS: os nomes das colunas não saem mais cortados.\n- Conciliação 11 x 93: linha de totais alinhada com a tabela.\n\n🔧 Correções\n- Gerenciar Contas › Igrejas do AASI: a agência importada agora vem sempre com 4 dígitos.\n- Baixar Extratos: o Bradesco voltou a reconhecer o componente de segurança no Firefox 145.\n",
+  "url_download": "https://github.com/daniloheck/CTec-Releases/releases/download/v0.6.9-22d7e4d/Gestor.de.Extratos.-.V0.6.9.exe"
 }
